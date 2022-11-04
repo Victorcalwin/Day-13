@@ -1,0 +1,44 @@
+header{
+  background-image: url(img/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.nav-img{
+  width: 50px;
+  margin-top: 20px;
+  background: #fff;
+  border-radius: 55%;
+  border: 5px solid black;
+}
+.nav-item{
+  color: #fff;
+}
+.pro_img{
+  width: 100%;
+}
+.headline{
+  text-align: center;
+  position: relative;
+  
+}
+.headline::after{
+  content: '';
+  width: 15%;
+  height: 2px;
+  background: #ff7675;
+  position: absolute;
+  top: 60px;
+  left: 40%;
+
+
+
+}
+.box{
+  margin-top: 50px;
+  padding-top: 30px;
+}
+.box ul li{
+  margin: 20px 0;
+}
